@@ -12,6 +12,6 @@ print(cursor.fetchone())
 # 'D-', datetime.datetime(2023, 3, 22, 17, 49, 16, 324915))
 
 
-student=Student(["Alfalfa", "Aloysius", "123-45-6789", "40.0", "90.0", "100.0", "83.0", "49.0", "D-"])
-#student #<api.models.student.Student object at 0x101147fd0>
-#student.__dict__ #{'id': 'Alfalfa', 'last_name': 'Aloysius', 'first_name': '123-45-6789', 'ssn': '40.0', 'test1': '90.0', 'test2': '100.0', 'test3': '83.0', 'test4': '49.0', 'final': 'D-'}
+student=Student(["1", "Alfalfa", "Aloysius", "123-45-6789", "40.0", "90.0", "100.0", "83.0", "49.0", "D-"])
+#student #<api.models.student.Student object at 0x10388c1d0>
+#student.__dict__ #{'id': '1', 'last_name': 'Alfalfa', 'first_name': 'Aloysius', 'ssn': '123-45-6789', 'test1': '40.0', 'test2': '90.0', 'test3': '100.0', 'test4': '83.0', 'final': '49.0', 'grade': 'D-'}
