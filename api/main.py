@@ -1,6 +1,7 @@
 from flask import Flask, jsonify
 import psycopg2
 from settings import db_name, user_name, password_name
+from models import Student
 
 app=Flask(__name__)
 
@@ -32,3 +33,4 @@ def student_show(student_id):
 
 
 app.run(debug=True)
+
